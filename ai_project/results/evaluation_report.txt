@@ -1,0 +1,26 @@
+======================================================================
+MODEL EVALUATION REPORT
+Network Traffic Classification for Cybersecurity
+======================================================================
+
+PERFORMANCE SUMMARY
+----------------------------------------------------------------------
+              Model  Accuracy  Precision   Recall  F1-Score  ROC-AUC
+Logistic Regression    0.9540   0.954134 0.989981  0.971727 0.993424
+      Random Forest    0.9850   0.994322 0.986850  0.990572 0.993183
+                SVM    0.9855   0.997462 0.984346  0.990860 0.991601
+
+BEST PERFORMING MODEL
+----------------------------------------------------------------------
+Model: SVM
+F1-Score: 0.9909
+Accuracy: 0.9855
+
+RECOMMENDATIONS FOR VIVA
+----------------------------------------------------------------------
+1. Recall is most critical for cybersecurity (catching all attacks)
+2. Random Forest typically performs best for this dataset
+3. SVM may be slower but offers good accuracy
+4. Logistic Regression serves as a fast baseline
+
+======================================================================

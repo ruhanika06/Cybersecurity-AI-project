@@ -1,0 +1,4 @@
+Model,Training Time (seconds)
+Logistic Regression,0.006331443786621094
+Random Forest,0.029670238494873047
+SVM,0.44623517990112305
